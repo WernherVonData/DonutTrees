@@ -7,6 +7,6 @@
 	<supportedVersions>
 		<li>1.2</li>
 	</supportedVersions>
-	<packageId></packageId>
+	<packageId>0.0.1</packageId>
 	<description>Adds Donut tree sowing technology with harvesting Donuts and ability to refine icing from them.</description>
 </ModMetaData>
