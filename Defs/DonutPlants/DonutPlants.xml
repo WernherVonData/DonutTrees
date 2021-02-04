@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TreeBase">
+    <defName>Plant_TreeDonut</defName>
+    <label>donut tree</label>
+    <description>A genetically mutated tree that can give you addictive donuts</description>
+    <graphicData>
+      <texPath>Things/Plant/DonutTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+        <shadowData>
+          <volume>(0.15, 0.3, 0.15)</volume>
+          <offset>(0,0,-0.38)</offset>
+        </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <statBases>
+      <Beauty>2</Beauty>
+      <Nutrition>1.25</Nutrition>
+    </statBases>
+    <ingestible />
+    <plant>
+      <growDays>1</growDays>
+      <visualSizeRange>0.8~2.0</visualSizeRange>
+      <topWindExposure>0.15</topWindExposure>
+      <harvestWork>400</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestYield>20</harvestYield>
+      <harvestedThingDef>DonutFruit</harvestedThingDef>
+    </plant>
+  </ThingDef>
+
+</Defs>

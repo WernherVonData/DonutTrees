@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>DonutTree</defName>
+    <label>donut tree</label>
+    <description>Sow the donut trees to grow donuts for your colony.</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.70</researchViewY>
+    <prerequisites>
+      <li>TreeSowing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>IcingProduction</defName>
+    <label>icing</label>
+    <description>Create the icing on the drug lab and bring pure sugar joy to your colonists.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>4.00</researchViewX>
+    <researchViewY>3.20</researchViewY>
+    <prerequisites>
+      <li>DonutTree</li>
+      <li>DrugProduction</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>
