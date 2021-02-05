@@ -14,7 +14,7 @@
     </prerequisites>
   </ResearchProjectDef>
 
-  <ResearchProjectDef>
+  <!-- <ResearchProjectDef>
     <defName>IcingProduction</defName>
     <label>icing</label>
     <description>Create the icing on the drug lab and bring pure sugar joy to your colonists.</description>
@@ -26,6 +26,6 @@
       <li>DonutTree</li>
       <li>DrugProduction</li>
     </prerequisites>
-  </ResearchProjectDef>
+  </ResearchProjectDef> -->
 
 </Defs>
