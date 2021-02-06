@@ -31,7 +31,7 @@
       </sowResearchPrerequisites>
       <topWindExposure>0.15</topWindExposure>
       <mustBeWildToSow>false</mustBeWildToSow>
-      <!-- <immatureGraphicPath>Things/Plant/DonutTreeImmature</immatureGraphicPath> -->
+      <immatureGraphicPath>Things/Plant/DonutTree_Immature</immatureGraphicPath>
       <harvestWork>400</harvestWork>
       <harvestTag>Standard</harvestTag>
       <harvestYield>20</harvestYield>
