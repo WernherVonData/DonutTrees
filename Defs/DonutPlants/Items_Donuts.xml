@@ -19,7 +19,7 @@
       <Mass>0.99</Mass>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>5</DeteriorationRate>
-      <Nutrition>0.1</Nutrition>
+      <Nutrition>0.75</Nutrition>
     </statBases>
     <thingCategories>
       <li>Foods</li>
