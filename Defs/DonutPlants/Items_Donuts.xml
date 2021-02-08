@@ -8,7 +8,7 @@
     <graphicData>
       <texPath>Things/Plant/DonutFruit</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>0.88</drawSize>
+      <drawSize>0.5</drawSize>
     </graphicData>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
@@ -18,7 +18,7 @@
       <MarketValue>30</MarketValue>
       <Mass>0.99</Mass>
       <Flammability>1.0</Flammability>
-      <DeteriorationRate>4</DeteriorationRate>
+      <DeteriorationRate>5</DeteriorationRate>
       <Nutrition>0.1</Nutrition>
     </statBases>
     <thingCategories>
@@ -27,9 +27,9 @@
     <ingestible>
       <preferability>DesperateOnly</preferability>
       <foodType>Processed</foodType>
-      <joy>0.9</joy>
+      <joy>0.85</joy>
       <joyKind>Gluttonous</joyKind>
-      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <maxNumToIngestAtOnce>30</maxNumToIngestAtOnce>
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
   </ThingDef>
