@@ -27,10 +27,10 @@
     <ingestible>
       <preferability>MealFine</preferability>
       <tasteThought>AteFineMeal</tasteThought>
-      <foodType>Plant</foodType>
+      <foodType>Processed</foodType>
       <joy>0.85</joy>
       <joyKind>Gluttonous</joyKind>
-      <maxNumToIngestAtOnce>30</maxNumToIngestAtOnce>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
   </ThingDef>
