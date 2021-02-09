@@ -4,7 +4,7 @@
   <ThingDef ParentName="TreeBase">
     <defName>Plant_TreeDonut</defName>
     <label>donut tree</label>
-    <description>A genetically mutated tree that can give you addictive donuts</description>
+    <description>A genetically mutated tree that can give you yummy donuts.</description>
     <graphicData>
       <texPath>Things/Plant/DonutTree</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -15,7 +15,7 @@
     </graphicData>
     <selectable>true</selectable>
     <statBases>
-      <Beauty>5</Beauty>
+      <Beauty>15</Beauty>
       <Nutrition>1.25</Nutrition>
     </statBases>
     <ingestible />
@@ -32,9 +32,9 @@
       <topWindExposure>0.15</topWindExposure>
       <mustBeWildToSow>false</mustBeWildToSow>
       <immatureGraphicPath>Things/Plant/DonutTree_Immature</immatureGraphicPath>
-      <harvestWork>400</harvestWork>
+      <harvestWork>1200</harvestWork>
       <harvestTag>Standard</harvestTag>
-      <harvestYield>20</harvestYield>
+      <harvestYield>5</harvestYield>
       <harvestedThingDef>DonutFruit</harvestedThingDef>
       <harvestFailable>true</harvestFailable>
     </plant>

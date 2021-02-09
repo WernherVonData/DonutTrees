@@ -3,30 +3,31 @@
 
   <ThingDef ParentName="ResourceBase">
     <defName>DonutFruit</defName>
-    <label>donut_fruit</label>
-    <description>A delicious result of love to the trees</description>
+    <label>donut fruit</label>
+    <description>A delicious result of love and kindness to the trees.</description>
     <graphicData>
       <texPath>Things/Plant/DonutFruit</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
-      <drawSize>0.5</drawSize>
+      <drawSize>0.4</drawSize>
     </graphicData>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <socialPropernessMatters>true</socialPropernessMatters>
     <statBases>
       <MaxHitPoints>60</MaxHitPoints>
-      <MarketValue>30</MarketValue>
-      <Mass>0.99</Mass>
+      <MarketValue>120</MarketValue>
+      <Mass>0.2</Mass>
       <Flammability>1.0</Flammability>
-      <DeteriorationRate>5</DeteriorationRate>
-      <Nutrition>0.75</Nutrition>
+      <DeteriorationRate>6</DeteriorationRate>
+      <Nutrition>0.85</Nutrition>
     </statBases>
     <thingCategories>
       <li>Foods</li>
     </thingCategories>
     <ingestible>
-      <preferability>DesperateOnly</preferability>
-      <foodType>Processed</foodType>
+      <preferability>MealFine</preferability>
+      <tasteThought>AteFineMeal</tasteThought>
+      <foodType>Plant</foodType>
       <joy>0.85</joy>
       <joyKind>Gluttonous</joyKind>
       <maxNumToIngestAtOnce>30</maxNumToIngestAtOnce>

@@ -2,11 +2,11 @@
 
 <ModMetaData>
 	<name>DonutTrees</name>
-	<author>Wernher_von_Donut</author>
+	<author>danpeczek</author>
 	<url></url>
 	<supportedVersions>
 		<li>1.2</li>
 	</supportedVersions>
-	<packageId>0.0.1</packageId>
+	<packageId>0.1.0</packageId>
 	<description>Adds Donut tree sowing technology and harvesting Donuts.</description>
 </ModMetaData>

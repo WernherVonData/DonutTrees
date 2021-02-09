@@ -8,11 +8,11 @@
 
 ## Motivation <a name="motivation"></a>
 
-Just wanted to see how game modding looks like
+Just wanted to see how game modding looks like.
 
 ## Content description <a name="content"></a>
 
-This is a Rimworld mod that adds technology to sow Donut trees that produce Donuts which may be turn into the Icing in the drug laboratories in your colony.  
+This is a Rimworld mod that adds technology to sow Donut trees that will grow Donuts which can be consumed by the colonists.
 
 ## Licensing, Authors, and Acknowledgements <a name="licensing"></a>
 
