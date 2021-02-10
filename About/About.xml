@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>DonutTrees</name>
+	<author>danpeczek</author>
+	<url></url>
+	<supportedVersions>
+		<li>1.2</li>
+	</supportedVersions>
+	<packageId>0.1.0</packageId>
+	<description>Adds Donut tree sowing technology and harvesting Donuts.</description>
+</ModMetaData>

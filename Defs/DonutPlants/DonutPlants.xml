@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="TreeBase">
+    <defName>Plant_TreeDonut</defName>
+    <label>donut tree</label>
+    <description>A genetically mutated tree that can give you yummy donuts.</description>
+    <graphicData>
+      <texPath>Things/Plant/DonutTree</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+        <shadowData>
+          <volume>(0.15, 0.3, 0.15)</volume>
+          <offset>(0,0, -0.38)</offset>
+        </shadowData>
+    </graphicData>
+    <selectable>true</selectable>
+    <statBases>
+      <Beauty>15</Beauty>
+      <Nutrition>1.25</Nutrition>
+    </statBases>
+    <ingestible />
+    <plant>
+      <growDays>10</growDays>
+      <visualSizeRange>1.0~3.0</visualSizeRange>
+      <sowMinSkill>9</sowMinSkill>
+      <sowTags>
+        <li>Ground</li>
+      </sowTags>
+      <sowResearchPrerequisites Inherit="False">
+        <li>DonutTree</li>
+      </sowResearchPrerequisites>
+      <topWindExposure>0.15</topWindExposure>
+      <mustBeWildToSow>false</mustBeWildToSow>
+      <immatureGraphicPath>Things/Plant/DonutTree_Immature</immatureGraphicPath>
+      <harvestWork>1200</harvestWork>
+      <harvestTag>Standard</harvestTag>
+      <harvestYield>5</harvestYield>
+      <harvestedThingDef>DonutFruit</harvestedThingDef>
+      <harvestFailable>true</harvestFailable>
+    </plant>
+  </ThingDef>
+
+</Defs>

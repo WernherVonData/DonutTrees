@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <ThingDef ParentName="ResourceBase">
+    <defName>DonutFruit</defName>
+    <label>donut fruit</label>
+    <description>A delicious result of love and kindness to the trees.</description>
+    <graphicData>
+      <texPath>Things/Plant/DonutFruit</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
+      <drawSize>0.4</drawSize>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <statBases>
+      <MaxHitPoints>60</MaxHitPoints>
+      <MarketValue>120</MarketValue>
+      <Mass>0.2</Mass>
+      <Flammability>1.0</Flammability>
+      <DeteriorationRate>6</DeteriorationRate>
+      <Nutrition>0.85</Nutrition>
+    </statBases>
+    <thingCategories>
+      <li>Foods</li>
+    </thingCategories>
+    <ingestible>
+      <preferability>MealFine</preferability>
+      <tasteThought>AteFineMeal</tasteThought>
+      <foodType>Processed</foodType>
+      <joy>0.85</joy>
+      <joyKind>Gluttonous</joyKind>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+</Defs>
