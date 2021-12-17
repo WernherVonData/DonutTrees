@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorld", "HelloWorld\HelloWorld.csproj", "{7455BC57-C04A-493F-87B9-8C9FF69598A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IcingGun", "IcingGun\IcingGun.csproj", "{4C3C33E6-9174-459E-A64C-6960F3D663E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7455BC57-C04A-493F-87B9-8C9FF69598A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7455BC57-C04A-493F-87B9-8C9FF69598A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7455BC57-C04A-493F-87B9-8C9FF69598A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7455BC57-C04A-493F-87B9-8C9FF69598A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3C33E6-9174-459E-A64C-6960F3D663E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3C33E6-9174-459E-A64C-6960F3D663E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3C33E6-9174-459E-A64C-6960F3D663E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3C33E6-9174-459E-A64C-6960F3D663E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {E61263E2-D365-4F09-AEE3-28FCD6994712}
+		SolutionGuid = {C5B95C81-C575-4583-B59A-FDA2A6FF4F56}
 	EndGlobalSection
 EndGlobal
