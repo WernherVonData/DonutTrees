@@ -2,7 +2,7 @@
 <Defs>
 
 <ThingDef ParentName="BaseBullet">
-  <defName>DANPE_Bullet_DonutGun</defName>
+  <defName>DANPE_Bullet_IcingGun</defName>
   <label>donut bullet</label>
   <graphicData>
     <texPath>SETUP</texPath>
@@ -15,6 +15,13 @@
     <stoppingPower>9</stoppingPower>
     <speed>80</speed>
   </projectile>
+
+  <modExtensions>
+    <li Class="IcingGun.ModExtension_IcingBullet">
+        <addHediffChance>0.05</addHediffChance>
+        <hediffToAdd>Plague</hediffToAdd>
+    </li>
+  </modExtensions>
 </ThingDef>
 
 <ThingDef ParentName="BaseHumanMakeableGun">
@@ -48,7 +55,7 @@
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <defaultProjectile>Bullet_IncendiaryLauncher</defaultProjectile>
+        <defaultProjectile>DANPE_Bullet_IcingGun</defaultProjectile>
         <warmupTime>3.5</warmupTime>
         <range>23.9</range>
         <forcedMissRadius>1.9</forcedMissRadius>
