@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Verse;
+
 namespace IcingGun
 {
     class Projectile_IcingBullet : RimWorld.Bullet
@@ -18,7 +20,9 @@ namespace IcingGun
                 float rand = Verse.Rand.Value;
                 if (rand <= Props.addHediffChance)
                 {
-                    Verse.Messages.Message("IcingBullet_Success").RimWorld.Translate(this.launcher.Label, hitPawn.Label), RimWorld.MessageTypeDefOf.NeutralEvent);
+                    Verse.Messages.Message("TST_PlagueBullet_SuccessMessage".Translate(
+                        this.launcher.Label, hitPawn.Label
+                    ), RimWorld.MessageTypeDefOf.NeutralEvent);
                     Verse.Hediff icingOnPawn = hitPawn.health?.hediffSet?.GetFirstHediffOfDef(Props.hediffToAdd);
 
                     float randomSeverity = Verse.Rand.Range(0.15f, 0.30f);
