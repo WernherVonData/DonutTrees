@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+<IcingBullet_FailureMote>Failure: {0} chance</IcingBullet_FailureMote>
+<TST_PlagueBullet_SuccessMessage>{0} icing applied {1}!</TST_PlagueBullet_SuccessMessage>
+</LanguageData>
